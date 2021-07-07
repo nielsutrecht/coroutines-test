@@ -1,0 +1,64 @@
+recipes:
+  axe:
+    type: assemble
+    duration: 4000
+    items:
+      wood_rod_round: 1
+      axe_head: 1
+
+  shovel:
+    type: assemble
+    duration: 4000
+    items:
+      wood_rod_round: 1
+      shovel_head: 1
+
+  barbells:
+    type: assemble
+    duration: 4000
+    items:
+      barbell_weight_heavy: 2
+      barbell_weight_light: 2
+      metal_rod: 1
+
+  barbell_weight_heavy:
+    type: cast
+    duration: 1500
+    items:
+      raw_metal: 10
+
+  barbell_weight_light:
+    type: cast
+    duration: 1000
+    items:
+      raw_metal: 2
+
+  metal_rod:
+    type: cast
+    duration: 1000
+    items:
+      raw_metal: 1
+
+  wood_rod_round:
+    type: lathe
+    duration: 1000
+    items:
+      wood_rod: 1
+
+  wood_rod:
+    type: straight_cut
+    duration: 1000
+    items:
+      raw_wood: 4
+
+  axe_head:
+    type: cast
+    duration: 2000
+    items:
+      raw_metal: 2
+
+  shovel_head:
+    type: cast
+    duration: 2500
+    items:
+      raw_metal: 3
